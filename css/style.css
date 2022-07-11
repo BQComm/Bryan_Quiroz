@@ -1,4 +1,7 @@
 
+:root {
+ --color-principal: #80d1f9;
+}
 
 body {
 	background: white;
@@ -79,14 +82,14 @@ html{
 }
 
 a {
-  color: #a1c45a;
+  color: var(--color-principal);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #a1c45a;
+  color: var(--color-principal);
   outline: none;
 }
 
@@ -175,7 +178,7 @@ footer {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #a1c45a;
+  background-color: var(--color-principal);
   border-radius: 2%;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
           animation: sk-pulseScaleOut 1s infinite ease-in-out; }
@@ -269,7 +272,7 @@ footer {
 .navbar-default .navbar-nav > .active > ::before {
     position: absolute;
     content: '';
-    background-color: #a1c45a;
+    background-color: var(--color-principal);
     height: 1px;
     width: 10px;
     margin-top: 24px;
@@ -331,7 +334,7 @@ footer {
 }
 
 #cta .btn {
-  background-color: #a1c45a;
+  background-color: var(--color-principal);
   border: 2px solid transparent;
   color: #ffffff;
   font-size: 14px;
@@ -423,7 +426,7 @@ footer {
 }
 
 #team .team-thumb:hover h4 {
-  color: #a1c45a;
+  color: var(--color-principal);
 }
 
 
@@ -435,7 +438,7 @@ footer {
   background-color: #f0f0f0;
   border-radius: 100px;
   cursor: pointer;
-  color: #a1c45a;
+  color: var(--color-principal);
   font-size: 32px;
   width: 85px;
   height: 85px;
@@ -483,7 +486,7 @@ footer {
   width: 100%;
   height: 100%;
   opacity: 0;
-  color: #a1c45a;
+  color: var(--color-principal);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -554,7 +557,7 @@ footer {
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  color: #a1c45a;
+  color: var(--color-principal);
 }
 
 /*worktope box css*/
@@ -638,7 +641,7 @@ footer {
 
 .submit {
   border-radius: 3px;
-  background-color: #a1c45a;
+  background-color: var(--color-principal);
   border: none;
   font-weight: 500;
   letter-spacing: 5px;
@@ -698,7 +701,7 @@ footer .footer-link ul li a {
 }
 
 footer .footer-link ul li a:hover {
-  color: #a1c45a;
+  color: var(--color-principal);
 }
 
 footer .footer-copyright {
@@ -743,12 +746,10 @@ footer .footer-copyright p {
 }
 
 .social-icon li a:hover {
-    background: #a1c45a;
+    background: var(--color-principal);
     color: #ffffff;
     top: -5px;
 }
-
-
 
 /*---------------------------------------
    Back top         
@@ -773,7 +774,7 @@ footer .footer-copyright p {
 }
 
 .go-top:hover {
-    background: #a1c45a;
+    background: var(--color-principal);
     color: #ffffff;
 }
 
